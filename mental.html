@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Tracker & Recommender</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mental Health Tracker & Recommender</h1>
+        <div class="tracker">
+            <h2>Tracker</h2>
+            <label for="mood">How are you feeling today?</label>
+            <select id="mood">
+                <option value="happy">Happy</option>
+                <option value="neutral">Neutral</option>
+                <option value="sad">Sad</option>
+                <option value="anxious">Anxious</option>
+                <option value="angry">Angry</option>
+            </select>
+            <button onclick="trackMood()">Track</button>
+        </div>
+        <div class="recommendations">
+            <h2>Recommendations</h2>
+            <p id="recommendation">Based on your mood, here are some recommendations:</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

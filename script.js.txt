@@ -1,0 +1,25 @@
+// script.js
+function trackMood() {
+    var mood = document.getElementById('mood').value;
+    var recommendation = document.getElementById('recommendation');
+
+    switch (mood) {
+        case 'happy':
+            recommendation.innerText = "Great to hear that you're feeling happy! Some recommended activities: Go for a walk, meet a friend, practice gratitude.";
+            break;
+        case 'neutral':
+            recommendation.innerText = "Feeling neutral today? It's okay. Try some relaxation techniques like deep breathing or meditation.";
+            break;
+        case 'sad':
+            recommendation.innerText = "If you're feeling sad, remember to be kind to yourself. Consider reaching out to a friend or loved one for support.";
+            break;
+        case 'anxious':
+            recommendation.innerText = "Feeling anxious can be tough, but you're not alone. Try some calming exercises like mindfulness or journaling.";
+            break;
+        case 'angry':
+            recommendation.innerText = "Feeling angry? Take a moment to breathe deeply and consider what's causing your anger. It's okay to step away from the situation.";
+            break;
+        default:
+            recommendation.innerText = "Invalid mood selection.";
+    }
+}
