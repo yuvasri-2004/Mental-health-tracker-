@@ -1,1 +1,1 @@
-# Mental-health-tracker-
+Mental health is a critical aspect of overall well-being, yet it is often overlooked or stigmatized. The prevalence of mental health disorders underscores the need for accessible and effective tools to monitor and support mental well-being.The Mental Health Tracker offers a user-friendly interface for tracking various aspects of mental well-being, including mood fluctuations, stress levels, sleep patterns, and activity levels. Users can input their data regularly, allowing them to visualize trends and patterns over time.# Mental-health-tracker-
